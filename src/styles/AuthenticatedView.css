@@ -1,0 +1,41 @@
+.AuthenticatedView {
+	max-width: 50rem;
+	margin: 0 auto;
+}
+
+.AuthenticatedView--heading,
+.AuthenticatedView--ListHeading {
+  	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    font-weight: 900;
+	line-height: 1.4;
+}
+
+.AuthenticatedView--heading {
+	font-size: 3rem;
+	text-align: center;
+}
+
+.AuthenticatedView--ListHeading {
+	font-size: 1.5rem;
+}
+
+.AuthenticatedView--list {
+	font-size: 1rem;
+	line-height: 1.4;
+	font-family: Verdana;
+	padding-left: 0;
+}
+
+.AuthenticatedView--list li {
+    padding: 1rem;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    list-style-type: none;
+}
+
+.AuthenticatedView--list li a {
+	display: block;
+}
